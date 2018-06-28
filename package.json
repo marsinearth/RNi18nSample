@@ -1,0 +1,29 @@
+{
+  "name": "i18nTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "i18next": "^11.3.3",
+    "i18next-locize-backend": "^1.6.0",
+    "i18next-react-native-language-detector": "^1.0.2",
+    "react": "16.3.1",
+    "react-i18next": "^7.7.0",
+    "react-native": "0.55.4",
+    "react-native-locale-detector": "^1.0.1",
+    "react-navigation": "^2.5.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
